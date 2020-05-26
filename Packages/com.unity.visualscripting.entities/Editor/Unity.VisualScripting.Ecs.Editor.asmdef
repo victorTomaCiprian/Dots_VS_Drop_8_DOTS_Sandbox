@@ -1,0 +1,58 @@
+{
+    "name": "Unity.VisualScripting.Ecs.Editor",
+    "references": [
+        "Unity.VisualScripting.Ecs",
+        "Unity.GraphTools.Foundation.Overdrive.Editor",
+        "Unity.GraphTools.Foundation.Overdrive",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Jobs",
+        "Unity.Collections",
+        "Unity.Transforms",
+        "Unity.Mathematics",
+        "Unity.Transforms.Hybrid",
+        "Unity.Searcher.Editor",
+        "Unity.Burst",
+        "Unity.Rendering.Hybrid",
+        "Unity.Physics",
+        "Unity.Properties",
+        "Unity.InternalAPIEngineBridgeDev.003"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Microsoft.CodeAnalysis.CSharp.dll",
+        "Microsoft.CodeAnalysis.CSharp.Workspaces.dll",
+        "Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "Microsoft.CodeAnalysis.dll",
+        "Microsoft.CodeAnalysis.Scripting.dll",
+        "Microsoft.CodeAnalysis.Workspaces.dll",
+        "System.Collections.Immutable.dll",
+        "System.Composition.AttributedModel.dll",
+        "System.Composition.Convention.dll",
+        "System.Composition.Hosting.dll",
+        "System.Composition.Runtime.dll",
+        "System.Composition.TypedParts.dll",
+        "System.Reflection.Metadata.dll",
+        "System.Runtime.Loader.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.rendering.hybrid",
+            "expression": "0.0.0",
+            "define": "VS_HYBRID_RENDERER_EXISTS"
+        },
+        {
+            "name": "com.unity.physics",
+            "expression": "0.0.0",
+            "define": "VS_DOTS_PHYSICS_EXISTS"
+        }
+    ],
+    "noEngineReferences": false
+}

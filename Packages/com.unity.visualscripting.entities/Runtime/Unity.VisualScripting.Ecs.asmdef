@@ -1,0 +1,35 @@
+{
+    "name": "Unity.VisualScripting.Ecs",
+    "references": [
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Rendering.Hybrid",
+        "Unity.Jobs",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.GraphTools.Foundation.Overdrive",
+        "Unity.Physics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.rendering.hybrid",
+            "expression": "0.0.0",
+            "define": "VS_HYBRID_RENDERER_EXISTS"
+        },
+        {
+            "name": "com.unity.physics",
+            "expression": "0.0.0",
+            "define": "VS_DOTS_PHYSICS_EXISTS"
+        }
+    ],
+    "noEngineReferences": false
+}

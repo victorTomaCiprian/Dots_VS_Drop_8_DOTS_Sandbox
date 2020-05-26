@@ -1,0 +1,26 @@
+
+.dots-variable-token #collapse-button {
+    width: 28px;
+    flex-direction:column;
+    justify-content:center;
+    padding-left: 4px;
+    border: 0px;
+}
+
+.dots-variable-token #collapse-button >#icon {
+    -unity-background-scale-mode: scale-to-fit;
+    width: 12px;
+    height: 12px;
+    align-self:center;
+    opacity: 0.15;
+    background-image: resource("GraphView/Nodes/NodeChevronDown.png");
+}
+
+.dots-variable-token:hover #collapse-button > #icon {
+}
+
+#collapse-button:hover:enabled > #icon {
+    background-color: #2B2B2B;
+    border-radius: 1px;
+    opacity: 1;
+}

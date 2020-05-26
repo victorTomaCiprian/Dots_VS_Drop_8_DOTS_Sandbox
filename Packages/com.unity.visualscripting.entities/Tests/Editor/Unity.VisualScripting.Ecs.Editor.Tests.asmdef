@@ -1,0 +1,51 @@
+{
+    "name": "Unity.VisualScripting.Ecs.Editor.Tests",
+    "references": [
+        "Unity.VisualScripting.Ecs",
+        "Unity.VisualScripting.Ecs.Editor",
+        "Unity.GraphTools.Foundation.Overdrive.Editor",
+        "Unity.GraphTools.Foundation.Overdrive",
+        "Unity.Searcher.Editor",
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Jobs",
+        "Unity.Collections",
+        "Unity.Transforms",
+        "Unity.Mathematics",
+        "Unity.Rendering.Hybrid",
+        "Unity.Burst",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Unity.Physics"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Moq.dll",
+        "Microsoft.CodeAnalysis.CSharp.dll",
+        "Microsoft.CodeAnalysis.dll",
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.rendering.hybrid",
+            "expression": "0.0.0",
+            "define": "VS_HYBRID_RENDERER_EXISTS"
+        },
+        {
+            "name": "com.unity.physics",
+            "expression": "0.0.0",
+            "define": "VS_DOTS_PHYSICS_EXISTS"
+        }
+    ],
+    "allowUnsafeCode": true,
+    "noEngineReferences": false
+}
